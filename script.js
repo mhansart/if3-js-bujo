@@ -1178,28 +1178,34 @@ nomJour.forEach((nom) => {
     var addtodo = document.getElementById(`addtodo-${indexEvent}`);
 
     //ajouter une nouvelle activité
-    btnplus.addEventListener("click", () => {
-      addtodo.innerHTML += `<li class="linewacti"><input id="newacti" class="newactinow"/><input type="submit" id="addacti" value="Ajouter"/></li> `;
-      var linewacti = document.querySelector(".linewacti");
-      var addacti = document.getElementById("addacti");
-      var newacti = document.getElementById("newacti");
-      addacti.addEventListener("click",() => {
-        // si on a bien rentré une activité
-        if (newacti.value !== "") {
-          //on change le html dans le li
-          linewacti.innerHTML = `</i><input type="checkbox" class="newactinow" id="${indexDonnees}-${indexEvent}-now" name="${newacti.value}"/> <i class="fa fa-history lateracti" aria-hidden="true"> <label  class="label" for="${newacti.value}">${newacti.value}</label>`;
-          donnees[indexDonnees].todo[indexEvent].push(newacti.value);
-          donnees[indexDonnees].etatTodo[indexEvent].push("unchecked");
-          // changer la class pour n'avoir toujours qu'une seule classe "linewacti"
-          linewacti.classList.replace("linewacti", "newactilater");
+      
+      btnplus.addEventListener("click", () => {
+        if(btnplus.hasAttribute("disabled") === false){
+          addtodo.innerHTML += `<li class="linewacti"><input id="newacti" class="newactinow"/><input type="submit" id="addacti" value="Ajouter"/></li> `;
+          btnplus.setAttribute("disabled","");
         }
-        var checkboxesActi = document.querySelectorAll(`.newactinow`);
-        var laterActi = document.querySelectorAll(".lateracti");
-        checkNewActi(checkboxesActi);
-        reportActi(laterActi);
-        
+        var newacti = document.getElementById("newacti");
+        var addacti = document.getElementById("addacti");
+        var linewacti = document.querySelector(".linewacti");
+          addacti.addEventListener("click",() => {
+            btnplus.removeAttribute("disabled");
+            // si on a bien rentré une activité
+            if (newacti.value !== "") {
+              //on change le html dans le li
+              linewacti.innerHTML = `</i><input type="checkbox" class="newactinow" id="${indexDonnees}-${indexEvent}-now" name="${newacti.value}"/> <i class="fa fa-history lateracti" aria-hidden="true"> <label  class="label" for="${newacti.value}">${newacti.value}</label>`;
+              donnees[indexDonnees].todo[indexEvent].push(newacti.value);
+              donnees[indexDonnees].etatTodo[indexEvent].push("unchecked");
+              // changer la class pour n'avoir toujours qu'une seule classe "linewacti"
+              linewacti.classList.replace("linewacti", "newactilater");
+            }
+            var checkboxesActi = document.querySelectorAll(`.newactinow`);
+            var laterActi = document.querySelectorAll(".lateracti");
+            checkNewActi(checkboxesActi);
+            reportActi(laterActi);
+            
+          });
       });
-    });
+    
     // fonction pour checker dans le tableau à partir des checkboxes
     var checkHobbies = (checkboxes) => {
       checkboxes.forEach((check) => {
