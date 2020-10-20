@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-image: url("/background.9e15dd99.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #414141;
+  margin-left: 150px;
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 1200px;
+  border-collapse: collapse;
+}
+table caption {
+  padding-left: 150px;
+  color: #DF3B57;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+table caption span {
+  font-size: 28px;
+  display: inline-block;
+  width: 700px;
+  text-align: center;
+}
+table caption i {
+  cursor: pointer;
+}
+table tr {
+  height: 100px;
+  width: 100%;
+}
+table tr.ultimatefrisbee td i {
+  color: #af1313;
+}
+table tr.couture td i {
+  color: #1b579b;
+}
+table tr.lecture td i {
+  color: teal;
+}
+table tr.vélo td i {
+  color: #EF8354;
+}
+table tr.pâtisserie td i {
+  color: #ec415d;
+}
+table tr td {
+  cursor: pointer;
+  width: 150px;
+  border: 2px solid transparent;
+  text-align: center;
+}
+table tr td:first-child {
+  background-color: transparent;
+}
+table tr td .truefalse {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 145px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table tr td .truefalse:hover {
+  background-color: #dadada;
+}
+table tr td .truefalse i {
+  font-size: 50px;
+}
+table tr td.nomhobby {
+  padding: 15px 0 15px 0;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  cursor: auto;
+}
+table tr td.nomhobby .entete {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  background-color: #DF3B57;
+  padding: 20px 0 20px 0;
+}
+table th {
+  color: white;
+  width: 150px;
+  height: 100%;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+table th .nomjour {
+  width: 100%;
+  text-align: center;
+  background-color: #DF3B57;
+  border-radius: 10px 10px 0 0;
+  height: 100%;
+  padding: 20px 1px 20px 1px;
+  cursor: pointer;
+}
+table th .nomjour.active {
+  background-color: #911227;
+}
+table th .nomjour:hover {
+  background-color: #911227;
+}
+table th .nomjour span {
+  display: block;
+}
+
+section {
+  margin: 10px 0 30px 148px;
+  margin-left: 148px;
+  margin-top: 10px;
+  padding: 30px 0;
+  display: flex;
+  width: 1046px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+section .todo {
+  width: 75%;
+  border-right: 1px solid #b1b1b1;
+  display: flex;
+  min-height: 250px;
+  justify-content: center;
+}
+section .todo div {
+  width: 45%;
+}
+section .todo div.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+section .todo div.col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+section .todo div h2 {
+  text-align: center;
+  color: #DF3B57;
+}
+section .todo div .todonow {
+  width: 80%;
+}
+section .todo div .todonow h3 {
+  color: #7b7785;
+  text-transform: capitalize;
+}
+section .todo div .todonow .addtodo {
+  width: 100%;
+}
+section .todo div .todonow li {
+  position: relative;
+  margin: 5px 10px 5px 0;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+section .todo div .todonow .btnplus {
+  margin-top: 15px;
+  background-color: #DF3B57;
+  color: white;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 25px;
+  cursor: pointer;
+}
+section .todo div .todolater {
+  width: auto;
+}
+section .todo div .todolater li {
+  margin: 5px 10px 5px 0;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+section .todo div .todolater li i {
+  margin-right: 5px;
+}
+section .event {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .event h2 {
+  text-align: center;
+  color: #DF3B57;
+}
+section .event p {
+  margin: 5px 10px;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+#newacti {
+  outline: none;
+  border: 1px solid #b1b1b1;
+  height: 30px;
+}
+
+#addacti {
+  border: 1px solid #DF3B57;
+  height: 30px;
+  background-color: #DF3B57;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+input[type=checkbox] {
+  position: relative;
+  transform: scale(1.5);
+  padding: 5px;
+  margin-right: 10px;
+}
+
+input[type=checkbox]:after:not(:checked) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #DF3B57;
+}
+input[type=checkbox]:after[checked=checked] {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #DF3B57;
+}
+
+/*# sourceMappingURL=/script.75da7f30.css.map */

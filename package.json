@@ -1,0 +1,25 @@
+{
+  "name": "bujo_avance",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhansart/if3-bujo-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhansart/if3-bujo-js/issues"
+  },
+  "homepage": "https://github.com/mhansart/if3-bujo-js#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "sass": "^1.27.0"
+  },
+  "dependencies": {}
+}
