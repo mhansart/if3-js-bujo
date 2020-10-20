@@ -1018,7 +1018,7 @@ donnees.forEach((donnee, d) => {
   // création thead
   var thead = "<thead><tr>";
   thead += "<th></th>";
-  days.forEach(function (day, l) {
+  days.forEach((day, l) => {
     //ajouter des tableaux dans un tableaux
     listLater[d].oneListLater.push([]);
     listCheckboxe[d].oneListCheck.push([]);
@@ -1102,7 +1102,7 @@ var todoLaterActi = document.querySelectorAll(`.todolater`);
 var todoNow = document.querySelectorAll(`.todonow`);
 var eventCol = document.querySelectorAll(`.event`);
 
-nomJour.forEach((nom, n) => {
+nomJour.forEach((nom) => {
   nom.addEventListener("click", () => {
 
     // ajouter une class active au nom de jour

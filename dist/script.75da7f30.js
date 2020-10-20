@@ -603,7 +603,7 @@ var nomJour = document.querySelectorAll(".nomjour");
 var todoLaterActi = document.querySelectorAll(".todolater");
 var todoNow = document.querySelectorAll(".todonow");
 var eventCol = document.querySelectorAll(".event");
-nomJour.forEach(function (nom, n) {
+nomJour.forEach(function (nom) {
   nom.addEventListener("click", function () {
     // ajouter une class active au nom de jour
     nomJour.forEach(function (jour) {
@@ -839,7 +839,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50054" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50544" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
