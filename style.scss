@@ -4,7 +4,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 body{
-  background-image: url("background.jpg");
+  background-image: url(static/autumn.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -254,12 +254,12 @@ table{
         }
     }
   }
-#newacti{
+.newactitext{
   outline: none;
   border: 1px solid rgb(177, 177, 177);
   height: 30px;
 }
-#addacti{
+.addacti{
   border: 1px solid #DF3B57;
   height: 30px;
   background-color: #DF3B57;

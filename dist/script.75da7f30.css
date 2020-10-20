@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("/background.9e15dd99.jpg");
+  background-image: url(/autumn.63624eaf.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -233,13 +233,13 @@ section .event p {
   text-transform: capitalize;
 }
 
-#newacti {
+.newactitext {
   outline: none;
   border: 1px solid #b1b1b1;
   height: 30px;
 }
 
-#addacti {
+.addacti {
   border: 1px solid #DF3B57;
   height: 30px;
   background-color: #DF3B57;

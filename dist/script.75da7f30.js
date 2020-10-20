@@ -189,600 +189,647 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./background.jpg":[["background.9e15dd99.jpg","background.jpg"],"background.jpg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"script.js":[function(require,module,exports) {
+},{"./static\\autumn.jpg":[["autumn.63624eaf.jpg","static/autumn.jpg"],"static/autumn.jpg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"script.js":[function(require,module,exports) {
 "use strict";
 
 require("./style.scss");
 
-// var bujodata = localStorage.getItem("bujodonnees");
-// if(bujodata){
-//   localStorage.setItem("bujodonnees", JSON.stringify(donnees));
-// }else{
-var donnees = [{
-  dates: ["19 octobre", "20 octobre", "21 octobre", "22 octobre", "23 octobre", "24 octobre", "25 octobre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["", "", "anniversaire maman", "", "payer les factures", "", ""],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [false, false, false, false, true, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, false, false, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, true, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, false, true, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [false, true, false, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["26 octobre", "27 octobre", "28 octobre", "29 octobre", "30 octobre", "31 octobre", "1 novembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["anniversaire vincent", "", "entretien voiture", "", "vacances !!", "", ""],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [false, false, true, false, true, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, false, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, false, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [true, false, true, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [false, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["2 novembre", "3 novembre", "4 novembre", "5 novembre", "6 novembre", "7 novembre", "8 novembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["soirée raclette", "", "shooping-téléphoner maman", "", "rendre visite mamy", "", ""],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [false, false, true, false, true, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, true, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, true, true, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [true, true, false, false, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["9 novembre", "10 novembre", "11 novembre", "12 novembre", "13 novembre", "14 novembre", "15 novembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["Anniversaire Arthur-congé pédagogique", "", "payer internet", "", "coiffeur", "", "marche adeps"],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [false, false, true, false, true, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [true, true, false, false, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, false, false, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [false, true, true, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["16 novembre", "17 novembre", "18 novembre", "19 novembre", "20 novembre", "21 novembre", "22 novembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["Médecin", "", "Anniversaire Papy", "", "toilettage", "", "marche adeps"],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [false, false, true, true, true, true, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, true, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, true, false, false, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, false, false, false, true, true, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [false, true, false, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["23 novembre", "24 novembre", "25 novembre", "26 novembre", "27 novembre", "28 novembre", "29 novembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["Anniversaire Arthur-congé pédagogique", "", "payer internet", "", "coiffeur", "", "marche adeps"],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [false, false, true, false, true, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [true, true, false, false, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, false, false, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [false, true, true, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["30 novembre", "1 décembre", "2 décembre", "3 décembre", "4 décembre", "5 décembre", "6 décembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["visite maman", "", "garder basile", "", "anniversaire héloise", "", "marche adeps-saint nicolas"],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [true, false, true, true, true, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, true, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [true, true, false, false, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, false, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [true, false, true, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["7 décembre", "8 décembre", "9 décembre", "10 décembre", "11 décembre", "12 décembre", "13 décembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["courses de noël", "", "garder basile", "", "anniversaire charlotte", "", "marche adeps-marché de noël"],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [true, false, true, false, true, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [true, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [true, false, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [true, false, false, false, true, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["14 décembre", "15 décembre", "16 décembre", "17 décembre", "18 décembre", "19 décembre", "20 décembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["noël au bureau", "", "", "", "anniversaire constance", "noël en famille", "marche adeps-marché de noël"],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [true, false, true, false, false, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, false, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [true, false, false, false, true, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["21 décembre", "22 décembre", "23 décembre", "24 décembre", "25 décembre", "26 décembre", "27 décembre"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["", "", "", "Vacances !!-réveillon de noël", "noël avec les cousins", "anniversaire françoise", ""],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [true, false, true, false, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, false, false, true, false, true, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, false, false, true, false, true, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [true, false, false, false, true, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}, {
-  dates: ["28 décembre", "29 décembre", "30 décembre", "31 décembre", "1 janvier", "2 janvier", "3 janvier"],
-  todo: [],
-  etatTodo: [],
-  todoLater: [],
-  evenement: ["", "", "", "réveillon du nouvel an", "nouvelle année", "", ""],
-  hobbies: [{
-    nom: "ultimate frisbee",
-    pratique: [true, false, true, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "couture",
-    pratique: [false, true, false, true, false, true, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "pâtisserie",
-    pratique: [false, false, false, false, false, true, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "lecture",
-    pratique: [false, true, false, true, false, false, false],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }, {
-    nom: "vélo",
-    pratique: [true, false, false, false, false, false, true],
-    etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
-  }]
-}]; // }
+var bujoData = localStorage.getItem("donneesStock");
+var donnees;
 
-var cellsIndex = [];
+if (bujoData) {
+  donnees = JSON.parse(bujoData);
+} else {
+  donnees = [{
+    season: "autumn",
+    dates: ["19 octobre", "20 octobre", "21 octobre", "22 octobre", "23 octobre", "24 octobre", "25 octobre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["", "", "anniversaire maman", "", "payer les factures", "", ""],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [false, false, false, false, true, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, false, false, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, true, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, false, true, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [false, true, false, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["26 octobre", "27 octobre", "28 octobre", "29 octobre", "30 octobre", "31 octobre", "1 novembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["anniversaire vincent", "", "entretien voiture", "", "vacances !!", "", ""],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [false, false, true, false, true, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, false, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, false, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [true, false, true, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [false, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["2 novembre", "3 novembre", "4 novembre", "5 novembre", "6 novembre", "7 novembre", "8 novembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["soirée raclette", "", "shooping-téléphoner maman", "", "rendre visite mamy", "", ""],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [false, false, true, false, true, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, true, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, true, true, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [true, true, false, false, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["9 novembre", "10 novembre", "11 novembre", "12 novembre", "13 novembre", "14 novembre", "15 novembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["Anniversaire Arthur-congé pédagogique", "", "payer internet", "", "coiffeur", "", "marche adeps"],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [false, false, true, false, true, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [true, true, false, false, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, false, false, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [false, true, true, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["16 novembre", "17 novembre", "18 novembre", "19 novembre", "20 novembre", "21 novembre", "22 novembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["Médecin", "", "Anniversaire Papy", "", "toilettage", "", "marche adeps"],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [false, false, true, true, true, true, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, true, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, true, false, false, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, false, false, false, true, true, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [false, true, false, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["23 novembre", "24 novembre", "25 novembre", "26 novembre", "27 novembre", "28 novembre", "29 novembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["Anniversaire Arthur-congé pédagogique", "", "payer internet", "", "coiffeur", "", "marche adeps"],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [false, false, true, false, true, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [true, true, false, false, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, false, false, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [false, true, true, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["30 novembre", "1 décembre", "2 décembre", "3 décembre", "4 décembre", "5 décembre", "6 décembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["visite maman", "", "garder basile", "", "anniversaire héloise", "", "marche adeps-saint nicolas"],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [true, false, true, true, true, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, true, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [true, true, false, false, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, false, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [true, false, true, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["7 décembre", "8 décembre", "9 décembre", "10 décembre", "11 décembre", "12 décembre", "13 décembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["courses de noël", "", "garder basile", "", "anniversaire charlotte", "", "marche adeps-marché de noël"],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [true, false, true, false, true, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [true, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [true, false, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [true, false, false, false, true, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "autumn",
+    dates: ["14 décembre", "15 décembre", "16 décembre", "17 décembre", "18 décembre", "19 décembre", "20 décembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["noël au bureau", "", "", "", "anniversaire constance", "noël en famille", "marche adeps-marché de noël"],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [true, false, true, false, false, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, false, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [true, false, false, false, true, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "winter",
+    dates: ["21 décembre", "22 décembre", "23 décembre", "24 décembre", "25 décembre", "26 décembre", "27 décembre"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["", "", "", "Vacances !!-réveillon de noël", "noël avec les cousins", "anniversaire françoise", ""],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [true, false, true, false, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, false, false, true, false, true, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, false, false, true, false, true, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [true, false, false, false, true, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }, {
+    season: "winter",
+    dates: ["28 décembre", "29 décembre", "30 décembre", "31 décembre", "1 janvier", "2 janvier", "3 janvier"],
+    todo: [],
+    etatTodo: [],
+    todoLater: [],
+    evenement: ["", "", "", "réveillon du nouvel an", "nouvelle année", "", ""],
+    hobbies: [{
+      nom: "ultimate frisbee",
+      pratique: [true, false, true, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "couture",
+      pratique: [false, true, false, true, false, true, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "pâtisserie",
+      pratique: [false, false, false, false, false, true, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "lecture",
+      pratique: [false, true, false, true, false, false, false],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }, {
+      nom: "vélo",
+      pratique: [true, false, false, false, false, false, true],
+      etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
+    }]
+  }];
+}
+
 var days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
+var cellsIndex = [];
 var listCheckboxe = [];
-var listLater = []; // localStorage.setItem("bujodonnees", JSON.stringify(donnees))
-// dessiner le tableau
-
+var listLater = [];
 var app = document.getElementById("app");
-app.innerHTML = "<h1>Mon Bullet Journal</h1>";
-donnees.forEach(function (donnee, d) {
-  // mettre des objets dans les tab afin de pouvoir différencier les activités des != semaines
-  listCheckboxe.push({
-    oneListCheck: []
-  });
-  listLater.push({
-    oneListLater: []
-  });
-  var classContainer = ""; // ajouts des classes pour le carrousel
+app.innerHTML = "<h1>Mon Bullet Journal</h1>"; // stocker les données
 
-  if (d === 0) {
-    classContainer = "visible";
-  } else {
-    classContainer = "hidden";
-  } // création caption
+var stockData = function stockData(tab) {
+  window.localStorage.setItem("donneesStock", JSON.stringify(donnees));
+  var bujoData = localStorage.getItem("donneesStock");
+}; // dessiner tableau + todo
 
 
-  var caption = "<caption><i class=\"fa fa-caret-left goleft\" id=\"".concat(d, "-goleft\" aria-hidden=\"true\"></i><span>Semaine du ").concat(donnee.dates[0], " au ").concat(donnee.dates[donnee.dates.length - 1], "</span><i class=\"fa fa-caret-right goright\" id=\"").concat(d, "-goright aria-hidden=\"true\"></i></caption>"); // création thead
-
-  var thead = "<thead><tr>";
-  thead += "<th></th>";
-  days.forEach(function (day, l) {
-    //ajouter des tableaux dans un tableaux
-    listLater[d].oneListLater.push([]);
-    listCheckboxe[d].oneListCheck.push([]);
-    donnee.todo.push([]);
-    donnee.etatTodo.push([]);
-    donnee.todoLater.push([]);
-    thead += "<th> <div class='nomjour' id=\"".concat(l, "-").concat(d, "\"><span>").concat(day, "</span><span> ").concat(donnee.dates[l], " </span></div></th>");
-  });
-  thead += "</tr></thead>"; // création tbody
-
-  var tbody = "<tbody>";
-  var tr = "";
-  var classLign = "";
-  donnee.hobbies.forEach(function (hobby, p) {
-    //donner une classe aux lignes
-    if (hobby.nom === "ultimate frisbee") {
-      classLign = "ultimatefrisbee";
-    } else {
-      classLign = hobby.nom;
-    }
-
-    tr += "<tr class=\"activite-".concat(d, " ").concat(classLign, "\" id=\"").concat(d, "-").concat(p, "-").concat(d, "\"><td class='nomhobby nomhobby-").concat(d, "'><div class=\"entete\">").concat(hobby.nom, "</div></td>");
-    days.forEach(function (day, t) {
-      tr += "<td><div class='truefalse truefalse-".concat(d, "' id =\"").concat(d, "-").concat(t, "-").concat(p, "\"></div></td>");
+var getTab = function getTab(tableau) {
+  tableau.forEach(function (donnee, d) {
+    // mettre des objets dans les tab afin de pouvoir différencier les activités des != semaines
+    listCheckboxe.push({
+      oneListCheck: []
     });
-    tr += "</tr>";
-  });
-  tbody += tr;
-  tbody += "</tbody>"; // ajouter les lignes crées à la table  
-
-  app.innerHTML += "<div class='container ".concat(classContainer, "'><table>").concat(caption).concat(thead).concat(tbody, "</table><section id=\"todoevent-").concat(d, "\"></section></div>");
-  var section = document.getElementById("todoevent-".concat(d)); // aller rechercher les cellules et si pratique = true, mettre une bullet et modifier état
-
-  var cells = document.querySelectorAll(".truefalse-".concat(d));
-  cells.forEach(function (cell) {
-    var indexCells = cell.id.split("-");
-    cellsIndex.push(cell.id);
-
-    if (donnee.hobbies[indexCells[2]].pratique[indexCells[1]] === true) {
-      cell.innerHTML = "<i class=\"fa fa-pagelines\" aria-hidden=\"true\"></i>";
-      donnee.hobbies[indexCells[2]].etat[indexCells[1]] = "checked";
-    } else {
-      cell.innerHTML = "";
-      donnee.hobbies[indexCells[2]].etat[indexCells[1]] = "unchecked";
-    }
-  }); // Dessiner la section => todo / event
-
-  section.innerHTML = "<div class='todo' id='todo-".concat(d, "'></div><div class='event' id='event-").concat(d, "'></div>");
-  var todoCol = document.getElementById("todo-".concat(d));
-  var eventCol = document.getElementById("event-".concat(d));
-  eventCol.innerHTML = "<h2>\xC9v\xE8nements</h2>";
-  todoCol.innerHTML = "<div class =\"col1\"><h2>To do aujourd'hui</h2><div class='todonow' id=\"todonow-".concat(d, "\"></div></div><div class =\"col2\"><h2>\xC0 faire plus tard</h2><div class='todolater' id=\"todolater-").concat(d, "\"></div></div>");
-}); // Les clicks sur les éléments 
-// click sur chaque case => click dessus => changer l'état - la pratique - ajouter/supprimer bullet
-
-var trueFalse = document.querySelectorAll(".truefalse");
-trueFalse.forEach(function (cell) {
-  cell.addEventListener("click", function (e) {
-    var indexCell = e.currentTarget.id.split("-");
-
-    if (donnees[indexCell[0]].hobbies[indexCell[2]].pratique[indexCell[1]] === false) {
-      cell.innerHTML = "<i class=\"fa fa-pagelines\" aria-hidden=\"true\"></i>";
-      donnees[indexCell[0]].hobbies[indexCell[2]].pratique[indexCell[1]] = true;
-      donnees[indexCell[0]].hobbies[indexCell[2]].etat[indexCell[1]] = "checked";
-    } else {
-      cell.innerHTML = "";
-      donnees[indexCell[0]].hobbies[indexCell[2]].pratique[indexCell[1]] = false;
-      donnees[indexCell[0]].hobbies[indexCell[2]].etat[indexCell[1]] = "unchecked";
-    }
-  });
-}); // click sur chaque jour -> click dessus -> voir todo + event 
-
-var nomJour = document.querySelectorAll(".nomjour");
-var todoLaterActi = document.querySelectorAll(".todolater");
-var todoNow = document.querySelectorAll(".todonow");
-var eventCol = document.querySelectorAll(".event");
-nomJour.forEach(function (nom) {
-  nom.addEventListener("click", function () {
-    // ajouter une class active au nom de jour
-    nomJour.forEach(function (jour) {
-      if (jour !== nom) {
-        jour.classList.remove("active");
-      }
+    listLater.push({
+      oneListLater: []
     });
-    nom.classList.add("active"); //afficher les events dans la col Event
+    var classContainer = ""; // ajouts des classes pour le carrousel
 
-    var indexDonnees = nom.id.split("-")[1];
-    eventCol[indexDonnees].innerHTML = "<h2>\xC9v\xE8nements</h2>";
-    var indexEvent = nom.id.split("-")[0];
-    var evenements = donnees[indexDonnees].evenement[indexEvent].split("-");
+    if (d === 0) {
+      classContainer = "visible";
+    } else {
+      classContainer = "hidden";
+    } // création caption
 
-    if (evenements[0] !== "") {
-      evenements.forEach(function (evenement) {
-        eventCol[indexDonnees].innerHTML += "<p for=\"".concat(evenement, "\">").concat(evenement, "</p>");
-      });
-    }
 
-    todoNow[indexDonnees].innerHTML = "<h3>".concat(nom.innerHTML, "</h3>"); // afficher les hobbies dans la todo
+    var caption = "<caption><i class=\"fa fa-caret-left goleft\" id=\"".concat(d, "-goleft\" aria-hidden=\"true\"></i><span>Semaine du ").concat(donnee.dates[0], " au ").concat(donnee.dates[donnee.dates.length - 1], "</span><i class=\"fa fa-caret-right goright\" id=\"").concat(d, "-goright aria-hidden=\"true\"></i></caption>"); // création thead
 
-    var hobbyAAfficher = [];
-    trueFalse.forEach(function (cell) {
-      if (cell.id.split("-")[1] === indexEvent && cell.id.split("-")[0] === indexDonnees) {
-        hobbyAAfficher.push(cell);
-      }
+    var thead = "<thead><tr>";
+    thead += "<th></th>";
+    days.forEach(function (day, l) {
+      //ajouter des tableaux dans un tableaux
+      listLater[d].oneListLater.push([]);
+      listCheckboxe[d].oneListCheck.push([]);
+      donnee.todo.push([]);
+      donnee.etatTodo.push([]);
+      donnee.todoLater.push([]);
+      thead += "<th> <div class='nomjour' id=\"".concat(l, "-").concat(d, "\"><span>").concat(day, "</span><span> ").concat(donnee.dates[l], " </span></div></th>");
     });
-    var todo = "<div class=\"addtodo\" id=\"addtodo-".concat(indexEvent, "\">");
-    hobbyAAfficher.forEach(function (event) {
-      var idxH = event.id.split("-")[2];
-      var textHobby = "";
+    thead += "</tr></thead>"; // création tbody
 
-      if (donnees[indexDonnees].hobbies[idxH].nom === "ultimatefrisbee") {
-        textHobby = "ultimate frisbee";
+    var tbody = "<tbody>";
+    var tr = "";
+    var classLign = "";
+    donnee.hobbies.forEach(function (hobby, p) {
+      //donner une classe aux lignes
+      if (hobby.nom === "ultimate frisbee") {
+        classLign = "ultimatefrisbee";
       } else {
-        textHobby = donnees[indexDonnees].hobbies[idxH].nom;
-      } // si l'état est report, il ne l'affiche plus dans la liste du jour
-
-
-      if (donnees[indexDonnees].hobbies[idxH].etat[indexEvent] === "checked") {
-        todo += "<li class=\"later\" id=\"".concat(indexDonnees, "-").concat([indexEvent], "-").concat(idxH, "-later\"><input type=\"checkbox\" class=\"now\" id=\"").concat(indexDonnees, "-").concat(indexEvent, "-").concat(idxH, "-now\" name=\"").concat(donnees[indexDonnees].hobbies[idxH].nom, "\"><label class=\"label\" for=\"").concat(donnees[indexDonnees].hobbies[idxH].nom, "\">").concat(textHobby, "</label></li>");
-      }
-    }); // afficher les activités rentrées à la mano
-
-    if (donnees[indexDonnees].todo[indexEvent][0] !== "") {
-      todoLaterActi[indexDonnees].innerHTML = "";
-      donnees[indexDonnees].todo[indexEvent].forEach(function (todoacti, b) {
-        if (donnees[indexDonnees].etatTodo[indexEvent][b] !== "report") {
-          todo += "<li class=\"newactilater\" id=\"".concat(indexDonnees, "-").concat(indexEvent, "-").concat(b, "-later\"><input type=\"checkbox\" class=\"newactinow\" id=\"").concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(todoacti, "\"> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"></i> <label class=\"label\" for=\"").concat(todoacti, "\">").concat(todoacti, "</label></li>");
-        } else {
-          todoLaterActi[indexDonnees].innerHTML += "<li><i class=\"fa fa-history todolateracti\" aria-hidden=\"true\"></i> <span>".concat(donnees[indexDonnees].todo[indexEvent][b], "</span></li>");
-        }
-      });
-    } // ajouter un bouton pour ajouter des activités
-
-
-    todo += "</div><div class=\"btnplus\" id=\"btnplus-".concat(indexDonnees, "-").concat(indexEvent, "\">+</div></div>");
-    todoNow[indexDonnees].innerHTML += todo;
-    var btnplus = document.getElementById("btnplus-".concat(indexDonnees, "-").concat(indexEvent));
-    var addtodo = document.getElementById("addtodo-".concat(indexEvent)); //ajouter une nouvelle activité
-
-    btnplus.addEventListener("click", function () {
-      if (btnplus.hasAttribute("disabled") === false) {
-        addtodo.innerHTML += "<li class=\"linewacti\"><input id=\"newacti\" class=\"newactinow\"/><input type=\"submit\" id=\"addacti\" value=\"Ajouter\"/></li> ";
-        btnplus.setAttribute("disabled", "");
+        classLign = hobby.nom;
       }
 
-      var newacti = document.getElementById("newacti");
-      var addacti = document.getElementById("addacti");
-      var linewacti = document.querySelector(".linewacti");
-      addacti.addEventListener("click", function () {
-        btnplus.removeAttribute("disabled"); // si on a bien rentré une activité
-
-        if (newacti.value !== "") {
-          //on change le html dans le li
-          linewacti.innerHTML = "</i><input type=\"checkbox\" class=\"newactinow\" id=\"".concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(newacti.value, "\"/> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"> <label  class=\"label\" for=\"").concat(newacti.value, "\">").concat(newacti.value, "</label>");
-          donnees[indexDonnees].todo[indexEvent].push(newacti.value);
-          donnees[indexDonnees].etatTodo[indexEvent].push("unchecked"); // changer la class pour n'avoir toujours qu'une seule classe "linewacti"
-
-          linewacti.classList.replace("linewacti", "newactilater");
-        }
-
-        var checkboxesActi = document.querySelectorAll(".newactinow");
-        var laterActi = document.querySelectorAll(".lateracti");
-        checkNewActi(checkboxesActi);
-        reportActi(laterActi);
+      tr += "<tr class=\"activite-".concat(d, " ").concat(classLign, "\" id=\"").concat(d, "-").concat(p, "-").concat(d, "\"><td class='nomhobby nomhobby-").concat(d, "'><div class=\"entete\">").concat(hobby.nom, "</div></td>");
+      days.forEach(function (day, t) {
+        tr += "<td><div class='truefalse truefalse-".concat(d, "' id =\"").concat(d, "-").concat(t, "-").concat(p, "\"></div></td>");
       });
-    }); // fonction pour checker dans le tableau à partir des checkboxes
-
-    var checkHobbies = function checkHobbies(checkboxes) {
-      checkboxes.forEach(function (check) {
-        var idCheck = check.id.split("-");
-        var celluleToCheck = cellsIndex.indexOf("".concat(idCheck[0], "-").concat(idCheck[1], "-").concat(idCheck[2]));
-        var indexH = check.id.split("-")[2];
-        var indexE = check.id.split("-")[1];
-        var indexD = check.id.split("-")[0];
-        check.addEventListener("click", function () {
-          if (!check.hasAttribute("checked")) {
-            check.setAttribute("checked", "checked");
-            trueFalse[celluleToCheck].innerHTML = "<i class=\"fa fa-pagelines\" aria-hidden=\"true\"></i>";
-            donnees[indexD].hobbies[indexH].pratique[indexE] = true;
-            donnees[indexD].hobbies[indexH].etat[indexE] = "checked";
-            check.setAttribute("disabled", "");
-          }
-        });
-      });
-    }; // fonction pour reporter des events
-
-
-    var reportActi = function reportActi(lateracti) {
-      var newActiLater = document.querySelectorAll(".newactilater");
-      lateracti.forEach(function (lateActi, k) {
-        lateActi.addEventListener("click", function () {
-          if (indexEvent == 6) {
-            donnees[parseInt(indexDonnees) + 1].todo[0].push(donnees[indexDonnees].todo[indexEvent][k]);
-          } else {
-            donnees[indexDonnees].todo[parseInt(indexEvent) + 1].push(donnees[indexDonnees].todo[indexEvent][k]);
-          }
-
-          donnees[indexDonnees].todoLater[indexEvent].push(donnees[indexDonnees].todo[indexEvent][k]);
-          donnees[indexDonnees].etatTodo[indexEvent][k] = "report";
-          todoLaterActi[indexDonnees].innerHTML += "<li> <i class=\"fa fa-history todolateracti\" aria-hidden=\"true\"></i> <span>".concat(donnees[indexDonnees].todo[indexEvent][k], "</span></li>");
-          newActiLater[k].style.display = "none";
-        });
-      });
-    }; // fonction pour checker les nouvelles actis
-
-
-    var checkNewActi = function checkNewActi(check) {
-      check.forEach(function (elt, j) {
-        if (donnees[indexDonnees].etatTodo[indexEvent][j] === "checked") {
-          elt.setAttribute("checked", "checked");
-        }
-
-        elt.addEventListener("click", function () {
-          if (!elt.hasAttribute("checked")) {
-            elt.setAttribute("checked", "checked");
-            donnees[indexDonnees].etatTodo[indexEvent][j] = "checked";
-          }
-        });
-      });
-    }; // checker les checkbox de la todo. Si elt a une bullet, alors il est déjà checké
-
-
-    var laterActi = document.querySelectorAll(".lateracti");
-    var label = document.querySelectorAll(".label");
-    var checkboxes = document.querySelectorAll(".now");
-    var checkboxesActi = document.querySelectorAll(".newactinow");
-    var laters = document.querySelectorAll(".later");
-    laters.forEach(function (later) {
-      var indexD = later.id.split("-")[0];
-
-      if (later.id.split("-")[0] === indexDonnees) {
-        listLater[indexD].oneListLater[indexEvent].push(later);
-      }
+      tr += "</tr>";
     });
-    checkNewActi(checkboxesActi);
-    reportActi(laterActi);
-    checkboxes.forEach(function (checkboxe) {
-      var indexH = checkboxe.id.split("-")[2];
-      var indexE = checkboxe.id.split("-")[1];
-      var indexD = checkboxe.id.split("-")[0];
+    tbody += tr;
+    tbody += "</tbody>"; // ajouter les lignes crées à la table
 
-      if (donnees[indexDonnees].hobbies[indexH].pratique[indexE] === true) {
-        checkboxe.setAttribute("checked", "checked");
-        checkboxe.setAttribute("disabled", "");
+    app.innerHTML += "<div class='container ".concat(classContainer, "'><table>").concat(caption).concat(thead).concat(tbody, "</table><section id=\"todoevent-").concat(d, "\"></section></div>");
+    var section = document.getElementById("todoevent-".concat(d)); // aller rechercher les cellules et si pratique = true, mettre une bullet et modifier état
+
+    var cells = document.querySelectorAll(".truefalse-".concat(d));
+    cells.forEach(function (cell) {
+      var indexCells = cell.id.split("-");
+      cellsIndex.push(cell.id);
+
+      if (donnee.hobbies[indexCells[2]].pratique[indexCells[1]] === true) {
+        cell.innerHTML = "<i class=\"fa fa-pagelines\" aria-hidden=\"true\"></i>";
+        donnee.hobbies[indexCells[2]].etat[indexCells[1]] = "checked";
+      } else {
+        cell.innerHTML = "";
+        donnee.hobbies[indexCells[2]].etat[indexCells[1]] = "unchecked";
       }
 
-      if (checkboxe.id.split("-")[0] === indexDonnees) {
-        listCheckboxe[indexD].oneListCheck[indexEvent].push(checkboxe);
-      }
-    }); // Ce qu'il se passe quand on clique sur une checkbox
-    // si reclick sur une checkbox déjà check, elt => "report" + symbole à la place de la checkbox
-    // si on check une checkboxe, une bullet apparait dans la case correspondante
+      stockData(donnees);
+    }); // Dessiner la section => todo / event
 
-    checkHobbies(listCheckboxe[indexDonnees].oneListCheck[indexEvent]);
+    section.innerHTML = "<div class='todo' id='todo-".concat(d, "'></div><div class='event' id='event-").concat(d, "'></div>");
+    var todoCol = document.getElementById("todo-".concat(d));
+    var eventCol = document.getElementById("event-".concat(d));
+    eventCol.innerHTML = "<h2>\xC9v\xE8nements</h2>";
+    todoCol.innerHTML = "<div class =\"col1\"><h2>To do aujourd'hui</h2><div class='todonow' id=\"todonow-".concat(d, "\"></div></div><div class =\"col2\"><h2>\xC0 faire plus tard</h2><div class='todolater' id=\"todolater-").concat(d, "\"></div></div>");
   });
-}); // création du carrousel
+}; // update etat/pratique/innerHTML d'une cellule au click
+
+
+var updateTab = function updateTab(cells) {
+  cells.forEach(function (cell) {
+    cell.addEventListener("click", function (e) {
+      var indexCell = e.currentTarget.id.split("-");
+
+      if (donnees[indexCell[0]].hobbies[indexCell[2]].pratique[indexCell[1]] === false) {
+        cell.innerHTML = "<i class=\"fa fa-pagelines\" aria-hidden=\"true\"></i>";
+        donnees[indexCell[0]].hobbies[indexCell[2]].pratique[indexCell[1]] = true;
+        donnees[indexCell[0]].hobbies[indexCell[2]].etat[indexCell[1]] = "checked";
+      } else {
+        cell.innerHTML = "";
+        donnees[indexCell[0]].hobbies[indexCell[2]].pratique[indexCell[1]] = false;
+        donnees[indexCell[0]].hobbies[indexCell[2]].etat[indexCell[1]] = "unchecked";
+      }
+
+      stockData(donnees);
+    });
+  });
+};
+
+var getDay = function getDay(dayTab) {
+  var todoLaterActi = document.querySelectorAll(".todolater");
+  var todoNow = document.querySelectorAll(".todonow");
+  var eventCol = document.querySelectorAll(".event");
+  dayTab.forEach(function (nom) {
+    nom.addEventListener("click", function () {
+      // ajouter une class active au nom de jour
+      dayTab.forEach(function (jour) {
+        if (jour !== nom) {
+          jour.classList.remove("active");
+        }
+      });
+      nom.classList.add("active"); //afficher les events dans la col Event
+
+      var indexDonnees = nom.id.split("-")[1];
+      eventCol[indexDonnees].innerHTML = "<h2>\xC9v\xE8nements</h2>";
+      var indexEvent = nom.id.split("-")[0];
+      var evenements = donnees[indexDonnees].evenement[indexEvent].split("-");
+
+      if (evenements[0] !== "") {
+        evenements.forEach(function (evenement) {
+          eventCol[indexDonnees].innerHTML += "<p for=\"".concat(evenement, "\">").concat(evenement, "</p>");
+        });
+      }
+
+      todoNow[indexDonnees].innerHTML = "<h3>".concat(nom.innerHTML, "</h3>"); // afficher les hobbies dans la todo
+
+      var hobbyAAfficher = [];
+      trueFalse.forEach(function (cell) {
+        if (cell.id.split("-")[1] === indexEvent && cell.id.split("-")[0] === indexDonnees) {
+          hobbyAAfficher.push(cell);
+        }
+      });
+      var todo = "<div class=\"addtodo\" id=\"addtodo-".concat(indexEvent, "\">");
+      hobbyAAfficher.forEach(function (event) {
+        console.log(event);
+        var idxH = event.id.split("-")[2];
+        var textHobby = "";
+
+        if (donnees[indexDonnees].hobbies[idxH].nom === "ultimatefrisbee") {
+          textHobby = "ultimate frisbee";
+        } else {
+          textHobby = donnees[indexDonnees].hobbies[idxH].nom;
+        } // on n'affiche que les checked en disabled
+
+
+        if (donnees[indexDonnees].hobbies[idxH].etat[indexEvent] === "checked") {
+          todo += "<li class=\"later\" id=\"".concat(indexDonnees, "-").concat([indexEvent], "-").concat(idxH, "-later\"><input type=\"checkbox\" class=\"now\" id=\"").concat(indexDonnees, "-").concat(indexEvent, "-").concat(idxH, "-now\" name=\"").concat(donnees[indexDonnees].hobbies[idxH].nom, "\"><label class=\"label\" for=\"").concat(donnees[indexDonnees].hobbies[idxH].nom, "\">").concat(textHobby, "</label></li>");
+        }
+      }); // afficher les activités rentrées à la mano
+
+      if (donnees[indexDonnees].todo[indexEvent][0] !== "") {
+        todoLaterActi[indexDonnees].innerHTML = "";
+        donnees[indexDonnees].todo[indexEvent].forEach(function (todoacti, b) {
+          if (donnees[indexDonnees].etatTodo[indexEvent][b] !== "report") {
+            todo += "<li class=\"newactilater\" id=\"".concat(indexDonnees, "-").concat(b, "-linewacti\"><input type=\"checkbox\" class=\"newactinow\" id=\"").concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(todoacti, "\"> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"></i> <label class=\"label\" for=\"").concat(todoacti, "\">").concat(todoacti, "</label></li>");
+          } else {
+            todoLaterActi[indexDonnees].innerHTML += "<li><i class=\"fa fa-history todolateracti\" aria-hidden=\"true\"></i> <span>".concat(donnees[indexDonnees].todo[indexEvent][b], "</span></li>");
+          }
+        });
+      } // ajouter un bouton pour ajouter des activités
+
+
+      todo += "</div><div class=\"btnplus\" id=\"btnplus-".concat(indexDonnees, "-").concat(indexEvent, "\">+</div></div>");
+      todoNow[indexDonnees].innerHTML += todo;
+      var btnplus = document.getElementById("btnplus-".concat(indexDonnees, "-").concat(indexEvent));
+      var addtodo = document.getElementById("addtodo-".concat(indexEvent)); //ajouter une nouvelle activité
+
+      btnplus.addEventListener("click", function () {
+        if (btnplus.hasAttribute("disabled") === false) {
+          addtodo.innerHTML += "<li class=\"linewacti\" id=\"".concat(indexDonnees, "-").concat(donnees[indexDonnees].todo[indexEvent].length, "-linewacti\"><input id=\"").concat(indexDonnees, "-newacti\" class=\"newactitext\"/><input type=\"submit\" class=\"addacti\" id=\"").concat(indexDonnees, "-addacti\" value=\"Ajouter\"/></li> ");
+          btnplus.setAttribute("disabled", "");
+        }
+
+        var newacti = document.getElementById("".concat(indexDonnees, "-newacti"));
+        var addacti = document.getElementById("".concat(indexDonnees, "-addacti"));
+        var linewacti = document.getElementById("".concat(indexDonnees, "-").concat(donnees[indexDonnees].todo[indexEvent].length, "-linewacti"));
+        addacti.addEventListener("click", function () {
+          btnplus.removeAttribute("disabled"); // si on a bien rentré une activité
+
+          if (newacti.value !== "") {
+            //on change le html dans le li
+            linewacti.innerHTML = "</i><input type=\"checkbox\" class=\"newactinow\" id=\"".concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(newacti.value, "\"/> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"> <label  class=\"label\" for=\"").concat(newacti.value, "\">").concat(newacti.value, "</label>");
+            donnees[indexDonnees].todo[indexEvent].push(newacti.value);
+            donnees[indexDonnees].etatTodo[indexEvent].push("unchecked"); // changer la class pour n'avoir toujours qu'une seule classe "linewacti"
+
+            linewacti.classList.replace("linewacti", "newactilater");
+            stockData(donnees);
+          }
+
+          var checkboxesActi = document.querySelectorAll(".newactinow");
+          var laterActi = document.querySelectorAll(".lateracti");
+          checkNewActi(checkboxesActi);
+          reportActi(laterActi);
+        });
+      }); // fonction pour checker dans le tableau à partir des checkboxes
+
+      var checkHobbies = function checkHobbies(checkboxes) {
+        checkboxes.forEach(function (check) {
+          var idCheck = check.id.split("-");
+          var celluleToCheck = cellsIndex.indexOf("".concat(idCheck[0], "-").concat(idCheck[1], "-").concat(idCheck[2]));
+          var indexH = check.id.split("-")[2];
+          var indexE = check.id.split("-")[1];
+          var indexD = check.id.split("-")[0];
+          check.addEventListener("click", function () {
+            if (!check.hasAttribute("checked")) {
+              check.setAttribute("checked", "checked");
+              trueFalse[celluleToCheck].innerHTML = "<i class=\"fa fa-pagelines\" aria-hidden=\"true\"></i>";
+              donnees[indexD].hobbies[indexH].pratique[indexE] = true;
+              donnees[indexD].hobbies[indexH].etat[indexE] = "checked";
+              check.setAttribute("disabled", "");
+            }
+
+            stockData(donnees);
+          });
+        });
+      }; // fonction pour reporter des events
+
+
+      var reportActi = function reportActi(lateracti) {
+        var newActiLater = document.querySelectorAll(".newactilater");
+        lateracti.forEach(function (lateActi, k) {
+          lateActi.addEventListener("click", function () {
+            var indexActi = newActiLater[k].id.split("-")[1];
+            console.log(indexActi);
+            console.log(k);
+
+            if (indexEvent == 6) {
+              donnees[parseInt(indexDonnees) + 1].todo[0].push(donnees[indexDonnees].todo[indexEvent][indexActi]);
+            } else {
+              console.log(k);
+              donnees[indexDonnees].todo[parseInt(indexEvent) + 1].push(donnees[indexDonnees].todo[indexEvent][indexActi]);
+            }
+
+            donnees[indexDonnees].todoLater[indexEvent].push(donnees[indexDonnees].todo[indexEvent][indexActi]);
+            donnees[indexDonnees].etatTodo[indexEvent][indexActi] = "report";
+            todoLaterActi[indexDonnees].innerHTML += "<li> <i class=\"fa fa-history todolateracti\" aria-hidden=\"true\"></i> <span>".concat(donnees[indexDonnees].todo[indexEvent][indexActi], "</span></li>");
+            newActiLater[k].style.display = "none";
+            stockData(donnees);
+          });
+        });
+      }; // fonction pour checker les nouvelles actis
+
+
+      var checkNewActi = function checkNewActi(check) {
+        check.forEach(function (elt, j) {
+          if (donnees[indexDonnees].etatTodo[indexEvent][j] === "checked") {
+            elt.setAttribute("checked", "checked");
+          }
+
+          elt.addEventListener("click", function () {
+            if (!elt.hasAttribute("checked")) {
+              elt.setAttribute("checked", "checked");
+              donnees[indexDonnees].etatTodo[indexEvent][j] = "checked";
+            } else {
+              elt.removeAttribute("checked");
+              donnees[indexDonnees].etatTodo[indexEvent][j] = "unchecked";
+            }
+
+            stockData(donnees);
+          });
+        });
+      }; // checker les checkbox de la todo. Si elt a une bullet, alors il est déjà checké
+
+
+      var laterActi = document.querySelectorAll(".lateracti");
+      var checkboxes = document.querySelectorAll(".now");
+      var checkboxesActi = document.querySelectorAll(".newactinow");
+      var laters = document.querySelectorAll(".later");
+      laters.forEach(function (later) {
+        var indexD = later.id.split("-")[0];
+
+        if (later.id.split("-")[0] === indexDonnees) {
+          listLater[indexD].oneListLater[indexEvent].push(later);
+        }
+      });
+      checkNewActi(checkboxesActi);
+      reportActi(laterActi);
+      checkboxes.forEach(function (checkboxe) {
+        var indexH = checkboxe.id.split("-")[2];
+        var indexE = checkboxe.id.split("-")[1];
+        var indexD = checkboxe.id.split("-")[0];
+
+        if (donnees[indexDonnees].hobbies[indexH].pratique[indexE] === true) {
+          checkboxe.setAttribute("checked", "checked");
+          checkboxe.setAttribute("disabled", "");
+        }
+
+        if (checkboxe.id.split("-")[0] === indexDonnees) {
+          listCheckboxe[indexD].oneListCheck[indexEvent].push(checkboxe);
+        }
+      }); // Ce qu'il se passe quand on clique sur une checkbox
+      // si reclick sur une checkbox déjà check, elt => "report" + symbole à la place de la checkbox
+      // si on check une checkboxe, une bullet apparait dans la case correspondante
+
+      checkHobbies(listCheckboxe[indexDonnees].oneListCheck[indexEvent]);
+    });
+  });
+};
+
+getTab(donnees);
+var trueFalse = document.querySelectorAll(".truefalse");
+updateTab(trueFalse);
+var nomJour = document.querySelectorAll(".nomjour");
+getDay(nomJour); // création du carrousel
 //  ajouter et enlever des classes (display none ou pas) lorsqu'on clique sur les carrets
 
 var containers = document.querySelectorAll(".container");
@@ -798,7 +845,9 @@ goLefts.forEach(function (goLeft, g) {
       containers[g].classList.add("hidden");
       containers[g].classList.remove("visible");
       containers[g - 1].classList.remove("hidden");
-      containers[g - 1].classList.add("visible");
+      containers[g - 1].classList.add("visible"); // changer l'arrière plan en fonction des saisons
+
+      document.body.style.backgroundImage = "url(".concat(donnees[g - 1].season, ".jpg)");
     }
   });
 });
@@ -812,7 +861,9 @@ goRights.forEach(function (goRight, g) {
       containers[g].classList.add("hidden");
       containers[g].classList.remove("visible");
       containers[g + 1].classList.remove("hidden");
-      containers[g + 1].classList.add("visible");
+      containers[g + 1].classList.add("visible"); // changer l'arrière plan en fonction des saisons
+
+      document.body.style.backgroundImage = "url(".concat(donnees[g + 1].season, ".jpg)");
     }
   });
 });
@@ -844,7 +895,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54318" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58489" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
