@@ -667,12 +667,17 @@ nomJour.forEach(function (nom) {
     var addtodo = document.getElementById("addtodo-".concat(indexEvent)); //ajouter une nouvelle activité
 
     btnplus.addEventListener("click", function () {
-      addtodo.innerHTML += "<li class=\"linewacti\"><input id=\"newacti\" class=\"newactinow\"/><input type=\"submit\" id=\"addacti\" value=\"Ajouter\"/></li> ";
-      var linewacti = document.querySelector(".linewacti");
-      var addacti = document.getElementById("addacti");
+      if (btnplus.hasAttribute("disabled") === false) {
+        addtodo.innerHTML += "<li class=\"linewacti\"><input id=\"newacti\" class=\"newactinow\"/><input type=\"submit\" id=\"addacti\" value=\"Ajouter\"/></li> ";
+        btnplus.setAttribute("disabled", "");
+      }
+
       var newacti = document.getElementById("newacti");
+      var addacti = document.getElementById("addacti");
+      var linewacti = document.querySelector(".linewacti");
       addacti.addEventListener("click", function () {
-        // si on a bien rentré une activité
+        btnplus.removeAttribute("disabled"); // si on a bien rentré une activité
+
         if (newacti.value !== "") {
           //on change le html dans le li
           linewacti.innerHTML = "</i><input type=\"checkbox\" class=\"newactinow\" id=\"".concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(newacti.value, "\"/> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"> <label  class=\"label\" for=\"").concat(newacti.value, "\">").concat(newacti.value, "</label>");
