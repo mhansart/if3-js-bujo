@@ -992,6 +992,7 @@ var days = [
   "dimanche",
 ];
 
+
 var listCheckboxe = [];
 var listLater = [];
 // localStorage.setItem("bujodonnees", JSON.stringify(donnees))
@@ -1132,7 +1133,7 @@ nomJour.forEach((nom) => {
     trueFalse.forEach((cell) => {
       if (
         cell.id.split("-")[1] === indexEvent
-        && cell.id.split("-")[0] === indexDonnees
+        && cell.id.split("-")[0] === indexDonnees 
       ) {
         hobbyAAfficher.push(cell);
       }
@@ -1148,7 +1149,7 @@ nomJour.forEach((nom) => {
       }
 
       // si l'état est report, il ne l'affiche plus dans la liste du jour
-      if (donnees[indexDonnees].hobbies[idxH].etat[indexEvent] !== "report") {
+      if (donnees[indexDonnees].hobbies[idxH].etat[indexEvent] === "checked") {
         todo += `<li class="later" id="${indexDonnees}-${[
           indexEvent,
         ]}-${idxH}-later"><input type="checkbox" class="now" id="${indexDonnees}-${indexEvent}-${idxH}-now" name="${donnees[indexDonnees].hobbies[idxH].nom
@@ -1192,14 +1193,14 @@ nomJour.forEach((nom) => {
           // changer la class pour n'avoir toujours qu'une seule classe "linewacti"
           linewacti.classList.replace("linewacti", "newactilater");
         }
-
         var checkboxesActi = document.querySelectorAll(`.newactinow`);
         var laterActi = document.querySelectorAll(".lateracti");
         checkNewActi(checkboxesActi);
         reportActi(laterActi);
+        
       });
     });
-    // fonction pour checker les checkboxs à partir du tableau
+    // fonction pour checker dans le tableau à partir des checkboxes
     var checkHobbies = (checkboxes) => {
       checkboxes.forEach((check) => {
         var idCheck = check.id.split("-");

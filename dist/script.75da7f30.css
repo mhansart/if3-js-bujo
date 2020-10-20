@@ -96,7 +96,7 @@ table tr td .truefalse {
   justify-content: center;
 }
 table tr td .truefalse:hover {
-  background-color: #dadada;
+  background-color: #ffd2d2;
 }
 table tr td .truefalse i {
   font-size: 50px;
@@ -121,14 +121,16 @@ table th {
   height: 100%;
   text-transform: capitalize;
   background-color: transparent;
+  text-align: center;
+  border: 2px solid transparent;
 }
 table th .nomjour {
-  width: 100%;
+  width: 145px;
   text-align: center;
   background-color: #DF3B57;
   border-radius: 10px 10px 0 0;
   height: 100%;
-  padding: 20px 1px 20px 1px;
+  padding: 20px 0px 20px 0px;
   cursor: pointer;
 }
 table th .nomjour.active {
@@ -151,7 +153,7 @@ section {
   background-color: rgba(255, 255, 255, 0.9);
 }
 section .todo {
-  width: 75%;
+  width: 70%;
   border-right: 1px solid #b1b1b1;
   display: flex;
   min-height: 250px;
@@ -216,7 +218,7 @@ section .todo div .todolater li i {
   margin-right: 5px;
 }
 section .event {
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;

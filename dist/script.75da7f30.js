@@ -644,7 +644,7 @@ nomJour.forEach(function (nom) {
       } // si l'état est report, il ne l'affiche plus dans la liste du jour
 
 
-      if (donnees[indexDonnees].hobbies[idxH].etat[indexEvent] !== "report") {
+      if (donnees[indexDonnees].hobbies[idxH].etat[indexEvent] === "checked") {
         todo += "<li class=\"later\" id=\"".concat(indexDonnees, "-").concat([indexEvent], "-").concat(idxH, "-later\"><input type=\"checkbox\" class=\"now\" id=\"").concat(indexDonnees, "-").concat(indexEvent, "-").concat(idxH, "-now\" name=\"").concat(donnees[indexDonnees].hobbies[idxH].nom, "\"><label class=\"label\" for=\"").concat(donnees[indexDonnees].hobbies[idxH].nom, "\">").concat(textHobby, "</label></li>");
       }
     }); // afficher les activités rentrées à la mano
@@ -687,7 +687,7 @@ nomJour.forEach(function (nom) {
         checkNewActi(checkboxesActi);
         reportActi(laterActi);
       });
-    }); // fonction pour checker les checkboxs à partir du tableau
+    }); // fonction pour checker dans le tableau à partir des checkboxes
 
     var checkHobbies = function checkHobbies(checkboxes) {
       checkboxes.forEach(function (check) {
@@ -839,7 +839,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50544" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54318" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
