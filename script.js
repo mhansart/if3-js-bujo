@@ -1037,7 +1037,6 @@ var getTab = (tableau) => {
     // mettre des objets dans les tab afin de pouvoir différencier les activités des != semaines
     listCheckboxe.push({ oneListCheck: [] });
     listLater.push({ oneListLater: [] });
-
     var classContainer = "";
     // ajouts des classes pour le carrousel
     if (d === 0) {
