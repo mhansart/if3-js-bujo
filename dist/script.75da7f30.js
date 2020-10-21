@@ -206,10 +206,10 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["", "", "anniversaire maman", "", "payer les factures", "", ""],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [false, false, false, false, true, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
@@ -217,15 +217,15 @@ if (bujoData) {
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, true, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, false, true, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [false, true, false, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -234,26 +234,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["anniversaire vincent", "", "entretien voiture", "", "vacances !!", "", ""],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [false, false, true, false, true, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, false, false, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, false, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [true, false, true, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [false, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -262,26 +262,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["soirée raclette", "", "shooping-téléphoner maman", "", "rendre visite mamy", "", ""],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [false, false, true, false, true, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, false, true, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, true, true, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [true, true, false, false, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -290,26 +290,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["Anniversaire Arthur-congé pédagogique", "", "payer internet", "", "coiffeur", "", "marche adeps"],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [false, false, true, false, true, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, false, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [true, true, false, false, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, false, false, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [false, true, true, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -318,26 +318,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["Médecin", "", "Anniversaire Papy", "", "toilettage", "", "marche adeps"],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [false, false, true, true, true, true, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, true, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, true, false, false, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, false, false, false, true, true, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [false, true, false, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -346,26 +346,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["Anniversaire Arthur-congé pédagogique", "", "payer internet", "", "coiffeur", "", "marche adeps"],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [false, false, true, false, true, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, false, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [true, true, false, false, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, false, false, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [false, true, true, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -374,26 +374,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["visite maman", "", "garder basile", "", "anniversaire héloise", "", "marche adeps-saint nicolas"],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [true, false, true, true, true, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, true, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [true, true, false, false, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, false, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [true, false, true, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -402,26 +402,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["courses de noël", "", "garder basile", "", "anniversaire charlotte", "", "marche adeps-marché de noël"],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [true, false, true, false, true, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [true, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [true, false, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [true, false, false, false, true, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -430,26 +430,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["noël au bureau", "", "", "", "anniversaire constance", "noël en famille", "marche adeps-marché de noël"],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [true, false, true, false, false, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, false, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, false, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [true, false, false, false, true, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -458,26 +458,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["", "", "", "Vacances !!-réveillon de noël", "noël avec les cousins", "anniversaire françoise", ""],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [true, false, true, false, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, false, false, true, false, true, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, false, false, true, false, true, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [true, false, false, false, true, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }, {
@@ -486,26 +486,26 @@ if (bujoData) {
     todo: [],
     etatTodo: [],
     todoLater: [],
-    evenement: ["", "", "", "réveillon du nouvel an", "nouvelle année", "", ""],
+    evenement: [],
     hobbies: [{
       nom: "ultimate frisbee",
-      pratique: [true, false, true, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "couture",
-      pratique: [false, true, false, true, false, true, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "pâtisserie",
-      pratique: [false, false, false, false, false, true, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "lecture",
-      pratique: [false, true, false, true, false, false, false],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }, {
       nom: "vélo",
-      pratique: [true, false, false, false, false, false, true],
+      pratique: [false, false, false, false, false, false, false],
       etat: ["unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked"]
     }]
   }];
@@ -519,7 +519,7 @@ var app = document.getElementById("app");
 app.innerHTML = "<h1>Mon Bullet Journal</h1>"; // stocker les données
 
 var stockData = function stockData(tab) {
-  window.localStorage.setItem("donneesStock", JSON.stringify(donnees));
+  window.localStorage.setItem("donneesStock", JSON.stringify(tab));
   var bujoData = localStorage.getItem("donneesStock");
 }; // dessiner tableau + todo
 
@@ -547,12 +547,16 @@ var getTab = function getTab(tableau) {
     var thead = "<thead><tr>";
     thead += "<th></th>";
     days.forEach(function (day, l) {
-      //ajouter des tableaux dans un tableaux
+      // ajouter des tableaux dans un tableaux
+      if (donnee.evenement.length < 7) {
+        donnee.todo.push([]);
+        donnee.etatTodo.push([]);
+        donnee.todoLater.push([]);
+        donnee.evenement.push([]);
+      }
+
       listLater[d].oneListLater.push([]);
       listCheckboxe[d].oneListCheck.push([]);
-      donnee.todo.push([]);
-      donnee.etatTodo.push([]);
-      donnee.todoLater.push([]);
       thead += "<th> <div class='nomjour' id=\"".concat(l, "-").concat(d, "\"><span>").concat(day, "</span><span> ").concat(donnee.dates[l], " </span></div></th>");
     });
     thead += "</tr></thead>"; // création tbody
@@ -641,15 +645,45 @@ var getDay = function getDay(dayTab) {
 
       var indexDonnees = nom.id.split("-")[1];
       eventCol[indexDonnees].innerHTML = "<h2>\xC9v\xE8nements</h2>";
+      var eventOfDay = "<div class=\"addeventcontent\" id=\"addeventcontent-".concat(indexDonnees, "\">");
       var indexEvent = nom.id.split("-")[0];
-      var evenements = donnees[indexDonnees].evenement[indexEvent].split("-");
+      console.log(donnees);
 
-      if (evenements[0] !== "") {
-        evenements.forEach(function (evenement) {
-          eventCol[indexDonnees].innerHTML += "<p for=\"".concat(evenement, "\">").concat(evenement, "</p>");
+      if (donnees[indexDonnees].evenement[indexEvent][0] !== "") {
+        donnees[indexDonnees].evenement[indexEvent].forEach(function (evenement) {
+          eventOfDay += "<p for=\"".concat(evenement, "\">").concat(evenement, "</p>");
         });
       }
 
+      eventOfDay += "</div><div class=\"btnplusevent\" id=\"btnplusevent-".concat(indexDonnees, "-").concat(indexEvent, "\">Ajouter un \xE9v\xE8nement aujourd'hui</div>");
+      eventCol[indexDonnees].innerHTML += eventOfDay; //click sur le bouton pour ajouter un event
+
+      var addEventContent = document.getElementById("addeventcontent-".concat(indexDonnees));
+      var btnPlusEvent = document.getElementById("btnplusevent-".concat(indexDonnees, "-").concat(indexEvent));
+      btnPlusEvent.addEventListener("click", function () {
+        if (btnPlusEvent.hasAttribute("disabled") === false) {
+          addEventContent.innerHTML += "<p class=\"linewevent-".concat(indexDonnees, " linewevent\"><input id=\"").concat(indexDonnees, "-newevent\" class=\"neweventtext\"/><input type=\"submit\" class=\"addevent\" id=\"").concat(indexDonnees, "-addevent\" value=\"Ajouter\"/></p> ");
+          btnPlusEvent.setAttribute("disabled", "");
+        }
+
+        var newevent = document.getElementById("".concat(indexDonnees, "-newevent"));
+        var addEvent = document.getElementById("".concat(indexDonnees, "-addevent"));
+        var linewevent = document.querySelector(".linewevent-".concat(indexDonnees));
+        addEvent.addEventListener("click", function () {
+          btnPlusEvent.removeAttribute("disabled"); // si on a bien rentré un event
+
+          if (newevent.value !== "") {
+            //on change le html dans le li
+            linewevent.innerHTML = newevent.value;
+            donnees[indexDonnees].evenement[indexEvent].push(newevent.value);
+            console.log(donnees[indexDonnees].evenement[indexEvent]);
+            console.log(donnees[indexDonnees].evenement); // changer la class pour n'avoir toujours qu'une seule classe "linewevent-[indexDonnees]"
+
+            linewevent.classList.replace("linewevent-".concat(indexDonnees), "event-of-day");
+            stockData(donnees);
+          }
+        });
+      });
       todoNow[indexDonnees].innerHTML = "<h3>".concat(nom.innerHTML, "</h3>"); // afficher les hobbies dans la todo
 
       var hobbyAAfficher = [];
@@ -660,7 +694,6 @@ var getDay = function getDay(dayTab) {
       });
       var todo = "<div class=\"addtodo\" id=\"addtodo-".concat(indexEvent, "\">");
       hobbyAAfficher.forEach(function (event) {
-        console.log(event);
         var idxH = event.id.split("-")[2];
         var textHobby = "";
 
@@ -688,7 +721,7 @@ var getDay = function getDay(dayTab) {
       } // ajouter un bouton pour ajouter des activités
 
 
-      todo += "</div><div class=\"btnplus\" id=\"btnplus-".concat(indexDonnees, "-").concat(indexEvent, "\">+</div></div>");
+      todo += "</div><div class=\"btnplus\" id=\"btnplus-".concat(indexDonnees, "-").concat(indexEvent, "\">+</div>");
       todoNow[indexDonnees].innerHTML += todo;
       var btnplus = document.getElementById("btnplus-".concat(indexDonnees, "-").concat(indexEvent));
       var addtodo = document.getElementById("addtodo-".concat(indexEvent)); //ajouter une nouvelle activité
@@ -707,7 +740,7 @@ var getDay = function getDay(dayTab) {
 
           if (newacti.value !== "") {
             //on change le html dans le li
-            linewacti.innerHTML = "</i><input type=\"checkbox\" class=\"newactinow\" id=\"".concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(newacti.value, "\"/> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"> <label  class=\"label\" for=\"").concat(newacti.value, "\">").concat(newacti.value, "</label>");
+            linewacti.innerHTML = "<input type=\"checkbox\" class=\"newactinow\" id=\"".concat(indexDonnees, "-").concat(indexEvent, "-now\" name=\"").concat(newacti.value, "\"/> <i class=\"fa fa-history lateracti\" aria-hidden=\"true\"></i> <label  class=\"label\" for=\"").concat(newacti.value, "\">").concat(newacti.value, "</label>");
             donnees[indexDonnees].todo[indexEvent].push(newacti.value);
             donnees[indexDonnees].etatTodo[indexEvent].push("unchecked"); // changer la class pour n'avoir toujours qu'une seule classe "linewacti"
 
@@ -749,13 +782,10 @@ var getDay = function getDay(dayTab) {
         lateracti.forEach(function (lateActi, k) {
           lateActi.addEventListener("click", function () {
             var indexActi = newActiLater[k].id.split("-")[1];
-            console.log(indexActi);
-            console.log(k);
 
             if (indexEvent == 6) {
               donnees[parseInt(indexDonnees) + 1].todo[0].push(donnees[indexDonnees].todo[indexEvent][indexActi]);
             } else {
-              console.log(k);
               donnees[indexDonnees].todo[parseInt(indexEvent) + 1].push(donnees[indexDonnees].todo[indexEvent][indexActi]);
             }
 
@@ -820,7 +850,9 @@ var getDay = function getDay(dayTab) {
       // si reclick sur une checkbox déjà check, elt => "report" + symbole à la place de la checkbox
       // si on check une checkboxe, une bullet apparait dans la case correspondante
 
-      checkHobbies(listCheckboxe[indexDonnees].oneListCheck[indexEvent]);
+      if (listCheckboxe[indexDonnees].oneListCheck[indexEvent].length > 0) {
+        checkHobbies(listCheckboxe[indexDonnees].oneListCheck[indexEvent]);
+      }
     });
   });
 };
@@ -895,7 +927,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59230" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52898" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

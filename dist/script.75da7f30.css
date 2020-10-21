@@ -236,6 +236,30 @@ section .event {
   flex-direction: column;
   align-items: center;
 }
+section .event .addeventcontent {
+  width: 100%;
+  padding-left: 15px;
+}
+section .event .addeventcontent .linewevent .neweventtext {
+  outline: none;
+  border: 1px solid #b1b1b1;
+  height: 30px;
+}
+section .event .addeventcontent .linewevent .addevent {
+  border: 1px solid #DF3B57;
+  height: 30px;
+  background-color: #DF3B57;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+section .event .btnplusevent {
+  background-color: #DF3B57;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
 section .event h2 {
   text-align: center;
   color: #DF3B57;
@@ -286,6 +310,17 @@ input[type=checkbox]:checked:after {
   width: 120%;
   background-color: #DF3B57;
   border: 1px solid #DF3B57;
+  border-radius: 2px;
+}
+input[type=checkbox]:disabled:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  height: 120%;
+  width: 120%;
+  background-color: #c2c0c0;
+  border: 1px solid #707070;
   border-radius: 2px;
 }
 

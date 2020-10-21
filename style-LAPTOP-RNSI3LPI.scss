@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 *{
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
@@ -8,26 +8,20 @@ body{
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0;
 }
 h1{
-  color:white;
-  padding: 15px;
+  color: rgb(65, 65, 65);
+  margin-left: 150px;
   text-align: center;
-  font-weight: 300;
-  width: 100%;
-  margin: 0;
-  background-color: #DF3B57;
 }
 #app{
-  width: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .container{
-  padding-right: 150px;
   padding-top: 20px;
   margin: auto;
   display: flex;
@@ -48,24 +42,19 @@ table{
     padding-left: 150px;
     color: #DF3B57;
     text-align: center;
+    font-weight: bolder;
     padding-bottom: 15px;
     font-size: 30px;
-    margin: 10px 0;
-    
     span{
-      font-size: 30px;
+      font-size: 28px;
       display: inline-block;
       width: 700px;
       text-align: center;
-      font-weight: 600;
       
     }
     i{
       
       cursor: pointer;
-      &:hover{
-        color: #911227;
-      }
     }
   }
   tr{
@@ -107,7 +96,6 @@ table{
       }
     }
     td{
-      font-weight: 300;
       cursor: pointer;
       width: 150px;
       border: 2px solid transparent;
@@ -116,7 +104,6 @@ table{
         background-color: transparent;
       }
        .truefalse{
-        font-weight: 300;
         background-color: rgba(255,255,255,0.9);
         width: 145px;
         height: 98px;
@@ -256,32 +243,6 @@ table{
       display: flex;
       flex-direction: column;
       align-items: center;
-      .addeventcontent{
-        width: 100%;
-        padding-left: 15px;
-        .linewevent{
-          .neweventtext{
-            outline: none;
-            border: 1px solid rgb(177, 177, 177);
-            height: 30px;
-          }
-          .addevent{
-            border: 1px solid #DF3B57;
-            height: 30px;
-            background-color: #DF3B57;
-            color: white;
-            font-family: 'Quicksand', sans-serif;;
-          }
-        }
-      }
-      .btnplusevent{
-        background-color: #DF3B57;
-        color: white;
-        padding: 5px 10px;
-        border-radius: 5px;
-        margin-top: 5px;
-        cursor: pointer;
-      }
       h2{
         text-align: center;
         color: #DF3B57;
@@ -333,18 +294,6 @@ input[type='checkbox'] {
   background-color: #DF3B57;
   border: 1px solid #DF3B57;
   border-radius: 2px;
-  }
-  &:disabled:after{
-    content: "";
-    position:absolute;
-    top: -2px;
-    left: -2px;
-    height: 120%;
-    width: 120%;
-    background-color: #c2c0c0;
-    border: 1px solid #707070;
-    border-radius: 2px;
-
   }
   
 }
