@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 *{
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
@@ -8,20 +8,26 @@ body{
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0;
 }
 h1{
-  color: rgb(65, 65, 65);
-  margin-left: 150px;
+  color:white;
+  padding: 15px;
   text-align: center;
+  font-weight: 300;
+  width: 100%;
+  margin: 0;
+  background-color: #DF3B57;
 }
 #app{
-
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .container{
+  padding-right: 150px;
   padding-top: 20px;
   margin: auto;
   display: flex;
@@ -42,19 +48,24 @@ table{
     padding-left: 150px;
     color: #DF3B57;
     text-align: center;
-    font-weight: bolder;
     padding-bottom: 15px;
     font-size: 30px;
+    margin: 10px 0;
+    
     span{
-      font-size: 28px;
+      font-size: 30px;
       display: inline-block;
       width: 700px;
       text-align: center;
+      font-weight: 400;
       
     }
     i{
       
       cursor: pointer;
+      &:hover{
+        color: #911227;
+      }
     }
   }
   tr{
@@ -96,6 +107,7 @@ table{
       }
     }
     td{
+      font-weight: 300;
       cursor: pointer;
       width: 150px;
       border: 2px solid transparent;
@@ -104,6 +116,7 @@ table{
         background-color: transparent;
       }
        .truefalse{
+        font-weight: 300;
         background-color: rgba(255,255,255,0.9);
         width: 145px;
         height: 98px;
